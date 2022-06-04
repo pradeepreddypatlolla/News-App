@@ -10,6 +10,7 @@ const NewsArea = (props) => {
        fetch(`${NewsAPI}/top-headlines?country=in&category=${props.category}&apiKey=${APIKEY}`)
        .then(data=>data.json())
        .then((data)=>{
+         
         setLatestNews(data.articles) 
     })
 
