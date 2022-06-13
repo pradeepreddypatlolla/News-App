@@ -6,6 +6,11 @@ const QuizApp = () => {
       Quizz App
     </div>
   )
+
+
+
+
+  
 }
 
 export default QuizApp
