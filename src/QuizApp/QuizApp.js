@@ -3,7 +3,7 @@ import React from 'react'
 const QuizApp = () => {
   return (
     <div>
-      Quizz App
+      Updated Quiz app
     </div>
   )
 
@@ -11,7 +11,7 @@ const QuizApp = () => {
 
 
 
-  
+
 
 
 
