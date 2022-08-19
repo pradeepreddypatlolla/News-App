@@ -13,7 +13,7 @@ useEffect(()=>{
 const setActiveLink=()=>{
     const arr=["general","business","entertainment","sports"]
     for(let i=0;i<arr.length;i++){
-        if(arr[i]==category){
+        if(arr[i]===category){
             document.getElementById(arr[i]).className="active"
         }
         else{
