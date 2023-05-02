@@ -16,7 +16,7 @@ const NewsArea = (props) => {
 
     },[props])
     
-    if(latestNews.length===0){
+    if(latestNews && latestNews.length===0){
       console.log("Loader")
       return <Loader/>
     }
