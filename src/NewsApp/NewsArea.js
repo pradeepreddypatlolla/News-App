@@ -26,7 +26,7 @@ const NewsArea = (props) => {
       <h3 className='text-center'> Latest News  - {props.category.toUpperCase()}</h3>
       <div className="news-area flex">
       {
-          latestNews.map((article)=>{
+         latestNews && latestNews.map((article)=>{
             return(
               <Card article={article} />
             )
